@@ -147,8 +147,6 @@ def categorize_text(text, categories):
 
 results_df['Category'] = categorize_text(all_text_rus, categories)
 
-import pandas as pd
-
 # словарь для соответствиякатегорий 
 category_descriptions = {
     "1": "Сухие каши и крахмалистые продукты",
